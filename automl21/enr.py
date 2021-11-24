@@ -25,12 +25,17 @@ import csv
 from collections import namedtuple
 
 import utils
+# import scs_neural.utils.utils as utils
 
 import sys
 sys.path.append('..')
 
-from benchmark.accel.aa import AA
-from benchmark.accel.neural_rec import NeuralLSTM, NeuralGRU
+
+# from benchmark.accel.aa import AA
+# from benchmark.accel.neural_rec import NeuralLSTM, NeuralGRU
+from automl21.accel.aa import AA
+from automl21.accel.neural_rec import NeuralLSTM, NeuralGRU
+
 
 np.set_printoptions(precision=2)
 

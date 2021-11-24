@@ -45,7 +45,7 @@ rec_model:
   dec_act: tanh
   learn_init_iterate: true
   learn_init_hidden: true
-  device: cuda
+  device: cpu
 
 model: ${rec_model}
 
